@@ -23,7 +23,11 @@ print("Twinkle, twinkle, little star, How I wonder what you are")
 Write a Python program to get the Python version you are using.
 """
 
-! python
+import sys
+print("Python version")
+print (sys.version)
+print("Version info.")
+print (sys.version_info)
 
 """Exercise 3: Print date and Time ☑️
 
