@@ -19,9 +19,13 @@ Twinkle, twinkle, little star,
 	How I wonder what you are
 
 print("Twinkle, twinkle, little star,")
+
 print("How I wonder what you are! Up above the world so high,")
+
 print("Like a diamond in the sky.")
+
 print("Twinkle, twinkle, little star, How I wonder what you are") 
+
 
 &nbsp;
 &nbsp;
@@ -31,8 +35,11 @@ print("Twinkle, twinkle, little star, How I wonder what you are")
  Write a Python program to get the Python version you are using.
 
 import sys
+
 print("Python version")
+
 print (sys.version)
+
 
 &nbsp;
 &nbsp;
@@ -42,9 +49,13 @@ print (sys.version)
 Write a Python program to display the current date and time.
 
 import datetime
+
 now = datetime.datetime.now()
+
 print ("Current date and time : ")
+
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
 
 &nbsp;
 &nbsp;
@@ -53,8 +64,11 @@ print (now.strftime("%Y-%m-%d %H:%M:%S"))
 Write three strings in different variables and print the output as one string.
 
 word1 = "three"
+
 word2 = "different"
+
 word3 = "variables"
+
 print(word1 ,word2 ,word3)
 
 &nbsp;
@@ -66,9 +80,13 @@ print(word1 ,word2 ,word3)
 Write a Python program which accepts the radius of a circle from the user and compute the area.
 
 r = int(input("Enter radius of circle: "))
+
 pi = 3.14159
+
 area = pi * r **2
+
 print(area)
+
 
 &nbsp;
 &nbsp;
