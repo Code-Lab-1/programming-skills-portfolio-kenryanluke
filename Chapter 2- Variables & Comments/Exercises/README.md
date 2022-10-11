@@ -16,9 +16,13 @@ Then change the value of the variable to a new message, and print the new
 message.
 
 message = "Hello"
+
 print(message)
+
 number = "Greetings"
+
 print(message)
+
 
 &nbsp;
 &nbsp;
@@ -47,6 +51,7 @@ Print the name once, so the whitespace around the name is displayed.
 Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
 name = "\n\tKenryan Luke Arias\t"
+
 print(name)
 
 print(name.lstrip())
@@ -54,6 +59,7 @@ print(name.lstrip())
 print(name.rstrip())
 
 name1 = ",.,,.,.Kenryan Luke Ariaspopopopo"
+
 print(name1)
 
 print(name1.strip(",.po"))
@@ -64,6 +70,7 @@ print(name1.strip(",.po"))
 ## Exercise 4: Favorite Number :ballot_box_with_check:
 Use a variable to represent your favorite number. Then,using that variable, create a message that reveals your favorite number. Print
 that message.
+
 
 fav_number = "11"
 print("My favourite number is " + fav_number)
@@ -81,13 +88,21 @@ Write a programme that calculates how many USB sticks she can buy and how many p
 You will to use the arithmetic operators to complete this exercise.
 
 usb = 6
+
 money = 50
+
 amount = money // usb
+
 change = money % usb
+
 print("Amount of USB sticks:")
+
 print(amount)
+
 print("Remaining change:")
+
 print(change)
+
 
 &nbsp;
 &nbsp;
