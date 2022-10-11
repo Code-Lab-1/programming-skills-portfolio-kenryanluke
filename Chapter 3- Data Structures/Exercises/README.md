@@ -9,12 +9,12 @@ Once you have completed your solution you should make sure you commit and push y
 
 ## Exercise 1: Names :ballot_box_with_check:
 
-Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a
+Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time.
 
- time.
-
-
-
+names = ["Ryan", "Baste", "Yang"]
+print(names[0])
+print(names[1])
+print(names[2])
 
 &nbsp;
 &nbsp;
@@ -27,8 +27,15 @@ printing each person’s name, print a message to them. The text of each message
 
 personalized with the person’s name.
 
+names = ["Ryan", "Baste", "Yang"]
+print(names[0])
+print("Hello Ryan")
 
+print(names[1])
+print("Hello Baste")
 
+print(names[2])
+print("Hello Yang")
 
 &nbsp;
 &nbsp;
@@ -39,6 +46,12 @@ Think of your favorite mode of transportation, such as a motorcycle or a car, an
 
 to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 
+car_brand = [" Lamborghini ", " Ferrari ", " BMW ", " Bentley "]
+print("I would like to own a" + car_brand[0] + "car")
+print("I would like to own a" + car_brand[1] + "car")
+print("I would like to own a" + car_brand[2] + "car")
+print("I would like to own a" + car_brand[3] + "car")
+
 &nbsp;
 &nbsp;
 
@@ -47,6 +60,9 @@ to print a series of statements about these items, such as “I would like to ow
 If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d
 
 like to invite to dinner. Then use your list to print a message to each person, invitingthem to dinner.
+
+people = ["Yang,", "Ryan,", "Baste,"]
+print(people[0], people[1], people[2] + ", would you like to go to dinner with me?")
 
 &nbsp;
 &nbsp;
@@ -63,6 +79,15 @@ someone else to invite.
 
 •Print a second set of invitation messages, one for each person who is still in your list.
 
+people = ["Yang, ", "Ryan, ", "Baste, "]
+print("Baste can't come for dinner")
+people.pop(2)
+people.append("Theo, ")
+print(people[0], people[1], people[2] + "are still invited")
+print(people[0] + "the dinner is still happening, but Baste wont be able to come")
+print(people[1] + "the dinner is still happening, but Baste wont be able to come")
+print(people[2] + "would you like to go on dinner?")
+
 &nbsp;
 &nbsp;
 
@@ -77,6 +102,17 @@ You just found out that your new dinner table won’t arrive in time for the din
 •Print a message to each of the two people still on your list, letting them know they’re still invited.
 
 •Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
+
+people = ["Yang, ", "Ryan, ", "Theo, "]
+print("I have 2 spots for dinner, anyone willing to come?")
+people.pop(1)
+print("Im sorry Ryan, as I wont be able to invite you for dinner")
+people.pop(1)
+print("Im sorry Theo, as I wont be able to invite you for dinner")
+print("Yang, you're still invited for dinner")
+people.remove("Yang, ")
+print(people)
+
 &nbsp;
 &nbsp;
 
@@ -101,6 +137,30 @@ Think of at least five places in the world you’d like to visit.
 •	 Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
 
 •	 Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
+
+countries = ["Japan" , "Italy", "Canada", "Russia", "London"]
+s_countries = sorted(countries)
+print(s_countries)
+
+print(countries)
+
+s_countries.reverse()
+print(s_countries)
+
+print(countries)
+
+countries.reverse()
+print(countries)
+
+countries.reverse()
+print(countries)
+
+countries.sort()
+print(countries)
+
+countries.reverse()
+print(countries)
+
 
 &nbsp;
 &nbsp;
