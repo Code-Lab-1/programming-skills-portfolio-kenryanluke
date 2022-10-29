@@ -14,8 +14,11 @@ Assign a message to a variable, and print that message. Then change the value of
 """
 
 number = 8
+
 print(number)
+
 number = 9291
+
 print(number)
 
 """Exercise 2: Variables ☑️
@@ -41,6 +44,7 @@ Then print the name using each of the three stripping functions, lstrip(), rstri
 """
 
 name = "\n\tKenryan Luke Arias\t"
+
 print(name)
 
 print(name.lstrip())
@@ -49,6 +53,7 @@ print(name.rstrip())
 
 name1 = ",.,,.,.Kenryan Luke Ariaspopopopo"
 print(name1)
+
 
 print(name1.strip(",.po"))
 
@@ -59,7 +64,9 @@ Then, using that variable, create a message that reveals your favorite number. P
 """
 
 fav_number = "11"
+
 print("My favourite number is " + fav_number)
+
 
 """Exercise 5: USB Shopper ☑️
 
@@ -71,11 +78,19 @@ You will to use the arithmetic operators to complete this exercise.
 """
 
 usb = 6
+
 money = 50
+
 amount = money // usb
+
 change = money % usb
+
 print("Amount of USB sticks:")
+
 print(amount)
+
 print("Remaining change:")
+
 print(change)
+
 
