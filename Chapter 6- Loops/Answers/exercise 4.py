@@ -4,7 +4,7 @@ finished_sandwiches = []
 while sandwich_orders:
     sandwich_popped= sandwich_orders.pop()
     print("I'm working on your " + sandwich_popped + " sandwich.")
-    finished_sandwiches.append(current_sandwich)
+    finished_sandwiches.append(sandwich_popped)
 
 print("\n")
 for sandwich in finished_sandwiches:
