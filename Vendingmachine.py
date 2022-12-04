@@ -42,7 +42,7 @@ money_in = float(input("Insert cash: "))
 print("\nAmount of money received:", money_in)
 prdct_code = input("Enter product code: ")
 
-#Prints the message to enter cash and input code and both inputs goes to the functions below
+#Prints the message to enter cash and input code and which runs the selected code's function
 
 
 
