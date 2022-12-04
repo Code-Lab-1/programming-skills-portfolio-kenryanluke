@@ -17,7 +17,7 @@ Snacks-----------------------------------------------
    E2 - Turkey Ham sandwich = 10AED  2
    F2 - Tuna Sandwich = 10AED        8
 """
-print(products)
+print(products) #Prints the Vending Machine's menu
 
 
 #Price
@@ -35,11 +35,14 @@ muffin = 5
 turkey = 10
 tuna = 10
 
+#Variables set for the products' prices
+
+
 money_in = float(input("Insert cash: "))
 print("\nAmount of money received:", money_in)
 prdct_code = input("Enter product code: ")
 
-
+#Prints the message to enter cash and input code and both inputs goes to the functions below
 
 
 
@@ -49,16 +52,16 @@ prdct_code = input("Enter product code: ")
 #Bevs
 def A1():
     water_stock = 1
-    if water_stock != 0:
-     if money_in >= water:
+    if water_stock != 0: #If stock is not equal to 0, it will continue with the program, else it stops and prints "Out of stock"
+     if money_in >= water: #When the amount of money inputed is greater than the price of product, it will proceed with the program, else it tells the user how much more money is needed
          change = money_in - water
          print("\nDispensing Bottle of Water")
          print("Your change is" , change)
-         water_stock -= 1
-         print("Stock left:", water_stock)
+         water_stock -= 1   #Takes away 1 stock when dispensed
+         print("Stock left:", water_stock) #Prints the stock after product is dispensed
      else:
-         remain = water - money_in
-         print("Cash insufficient. Amount pending:", remain)
+         remain = water - money_in 
+         print("Cash insufficient. Amount pending:", remain) #Shows how much money is pending
     else:
         print("Out of Stock")
 
@@ -260,3 +263,5 @@ elif prdct_code == "E2":
     E2()
 elif prdct_code == "F2":
     F2()
+
+#Conditional statement using if elif to match the product code, each statement runs the function
