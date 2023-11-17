@@ -15,6 +15,18 @@ Imagine an alien was just shot down in a game. Create a variable called alien_co
 
 •Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
 
+alien_color = "green"
+
+if alien_color == "green":
+
+  print("You have earned 5 points!")
+
+
+alien_color = "red"
+
+if alien_color == "green":
+
+  print("You have earned 5 points!")
 
 
 &nbsp;
@@ -30,6 +42,26 @@ Choose a color for an alien as you did in Exercise 5-3, and write an if-else cha
 
 •Write one version of this program that runs the if block and another that runs the else block.
 
+alien_color = "green"
+
+if alien_color == "green":
+
+  print("You have earned 5 points!")
+
+else:
+
+  print("You have earned 10 points!")
+
+alien_color = "yellow"
+
+if alien_color == "green":
+
+  print("You have earned 5 points!")
+
+else:
+
+  print("You have earned 10 points!")
+
 &nbsp;
 &nbsp;
 
@@ -44,6 +76,50 @@ Turn your if-else chain from Exercise 5-4 into an if-elifelse chain.
 •	 If the alien is red, print a message that the player earned 15 points.
 
 •	 Write three versions of this program, making sure each message is printed for the appropriate color alien.
+
+alien_color = "green"
+
+if alien_color == "green":
+
+  print("You have earned 5 points!")
+
+elif alien_color == "yellow":
+
+  print("You have earned 10 points!")
+
+else:
+
+  print("YOu have earned 15 points!")
+
+alien_color = "yellow"
+
+
+
+if alien_color == "green":
+
+  print("You have earned 5 points!")
+
+elif alien_color == "yellow":
+
+  print("You have earned 10 points!")
+
+else:
+
+  print("YOu have earned 15 points!")
+
+alien_color = "red"
+
+if alien_color == "green":
+
+  print("You have earned 5 points!")
+
+elif alien_color == "yellow":
+
+  print("You have earned 10 points!")
+
+else:
+
+  print("You have earned 15 points!")
 
 
 &nbsp;
@@ -65,6 +141,34 @@ Write an if-elif-else chain that determines a person’s stage of life. Set a va
 
 •If the person is age 65 or older, print a message that the person is an elder.
 
+
+age = 66
+
+if age<2:
+
+  print("This person is a baby")
+  
+elif age>=2 and age<4:
+
+  print("This person is a toddler")
+
+elif age>=4 and age<13:
+
+  print("This person is a kid")
+
+elif age>=13 and age<20:
+
+  print("This person is a teenager")
+
+elif age>=20 and age<65:
+
+  print("This person is an adult")
+
+else:
+
+  print("This person is an elder")
+
+
 &nbsp;
 &nbsp;
 
@@ -77,3 +181,25 @@ Make a list of your favorite fruits, and then write a series of independent if s
 •Write five if statements. Each should check whether a certain kind of fruit is in your list. If the fruit is in your list, the if block 
 
 should print a statement,such as You really like bananas!
+
+favorite_fruits = ["Banana", "Apple", "Pineapple"]
+
+if "Banana" in favorite_fruits:
+
+  print("I really like Bananas!")
+
+if "Apple" in favorite_fruits:
+
+  print("I really like Apples!")
+
+if "Pineapple" in favorite_fruits:
+
+  print("I really like Pineapples!")
+
+if "Orange" in favorite_fruits:
+
+  print("I really like Oranges!")
+
+if "Peach" in favorite_fruits:
+
+  print("I really like Peaches!")
